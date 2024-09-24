@@ -1,7 +1,7 @@
 import csv
 
 def import_csv(filename):
-    with open(filename, 'rk') as file:
+    with open(filename, 'r') as file:
         reader = csv.DictReader(file)
         data = [row for row in reader]
     return data
