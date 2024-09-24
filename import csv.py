@@ -6,5 +6,5 @@ def import_csv(filename):
         data = [row for row in reader]
     return data
 
-student_data = import_csv('Students.csv')
+student_data = import_csv('kaciret/Schoolissue/Students.csv')
 print(student_data) 
